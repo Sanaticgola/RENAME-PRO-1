@@ -42,6 +42,8 @@ A File Rename Bot with Custom Thumbnail Support
 
 * DATABASE_URI  - Mongo Database URL from https://cloud.mongodb.com/
 
+* START_PIC     - Your telegraph pic
+
 # HOW TO FILL -
 
 EXAMPLE - mongodb+srv://[UserName]:[password]@cluster0.dciqs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
