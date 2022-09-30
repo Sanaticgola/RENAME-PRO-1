@@ -7,7 +7,7 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-	Hello 👋 {message.from_user.first_name }
+	Hey buddy 👋 {message.from_user.first_name }
 	
 ☞ I'm A Telegram File & Video Rename Bot With Permanent Thumbnail Support.
 
@@ -19,12 +19,12 @@ async def start(client,message):
 
 ☞ Then Wait Till The Process Get Completed!
 
-☞ Maintained By : @ChVivekTomar
+☞ Maintained By : @Sanaticsmovies 
 
-**☞ Want To Buy Owr Premium Rename Bot With Custom Caption Support Contact Me On @ChVivekTomar**
+**☞ Want To Buy Owr Premium Rename Bot With Custom Caption Support Contact Me On @Sanaticsmovies**
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Vivek Projects" ,url="https://t.me/OfficialVivekProject") ]  ]))
+	 [[ InlineKeyboardButton("Sanaticsmovies" ,url="https://t.me/sanaticsmovies") ]  ]))
 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
