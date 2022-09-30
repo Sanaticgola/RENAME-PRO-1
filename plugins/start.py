@@ -7,9 +7,6 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-     await message.reply_photo(    
-        photo="START_PIC,
-	
     Hey buddy 👋 {message.from_user.first_name }
 	
 🔸️I'AM A FAST RENAMER BOT WITH PERMAENENT THUMNAIL SUPPORT.
